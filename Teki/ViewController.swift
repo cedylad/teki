@@ -24,7 +24,7 @@ class ViewController: UIViewController {
                 
         //Partie activities
         let randomIndexActivity = Int.random(in: 0..<celebrities.count)
-        let randomActivity = activities[randomIndexCelebrity]
+        let randomActivity = activities[randomIndexActivity]
         
         let quote = "Tu es " + randomCelebrety + " " + randomActivity + " !"
         
