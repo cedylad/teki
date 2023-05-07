@@ -19,17 +19,16 @@ class ViewController: UIViewController {
     @IBAction func changeQuote(_ sender: Any) {
         
         //Partie celebrities
-        var randomIndexCelebrity = Int.random(in: 0..<celebrities.count)
-        var randomCelebrety = celebrities[randomIndexCelebrity]
-        print(randomCelebrety)
-        
+        let randomIndexCelebrity = Int.random(in: 0..<celebrities.count)
+        let randomCelebrety = celebrities[randomIndexCelebrity]
+                
         //Partie activities
-        var randomIndexActivity = Int.random(in: 0..<celebrities.count)
-        var randomActivity = activities[randomIndexCelebrity]
-        print(randomActivity)
+        let randomIndexActivity = Int.random(in: 0..<celebrities.count)
+        let randomActivity = activities[randomIndexCelebrity]
         
-        quoteLabel.text = "Le texte du label a été modifié !"
-    }
+        let quote = "Tu es " + randomCelebrety + " " + randomActivity + " !"
+        
+        quoteLabel.text = quote    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
