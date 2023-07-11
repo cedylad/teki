@@ -1,11 +1,9 @@
+![Logo](https://o.remove.bg/downloads/722e5a70-0648-41e2-b9e1-356349b3ef21/12517153-removebg-preview.png)
 
-```
-<details>
-<summary><strong>Teki</strong></summary>
-
+# Description 
 Teki is an iOS application that generates random sentences.
 
-## Installation
+# Installation
 
 To use Teki, simply clone the repository:
 
@@ -13,23 +11,21 @@ To use Teki, simply clone the repository:
 git clone https://github.com/cedylad/teki.git
 ```
 
-## Usage
+# Usage
 
 The application currently generates predefined sentences. In the future, the goal is to connect the application to a Node.js API to expand its capabilities.
 
-## Contributing
+# Contributing
 
 Contributions to Teki are welcome! If you would like to contribute, please submit a pull request with any bug fixes or enhancements you would like to propose.
 
-## License
+# License
 
 This project is released under the MIT License. Feel free to use and modify the code as needed.
 
-## Contact
+## Features
 
-You can find more information about the project and contact the developer on the [GitHub repository](https://github.com/cedylad).
+- Using with NodeJS API
 
-</details>
-```
-
-Copie simplement le contenu ci-dessus et colle-le dans un fichier README.md à la racine de ton référentiel. Maintenant, lorsque les utilisateurs consultent ton fichier README, ils peuvent cliquer sur le résumé pour afficher les détails du contenu.
+## Author
+You can contact me on GitHub : [@cedylad](https://www.github.com/cedylad)
